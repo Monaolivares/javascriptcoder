@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1, 
+        "class":"cajita jabon",
+        "img": "./img/jabones.jpeg",
+        "nombre":"Jabon Artesanal",
+        "autor": "Botica Bosque", 
+        "description":"Jabon natural, local y artesanal, hecho con hierbas de nuestra huerta, agua del deshielo de la cordillera y arcilla de rio.",
+        "precio": "5000"
+    }, 
+    {
+        "id": 2, 
+        "class":"cajita scrunchie",
+        "img": "./img/scrunchies.jpeg",
+        "nombre": "Scrunchies", 
+        "autor": "Botica Bosque", 
+        "description":"Tenidos a mano con pigmentos naturales, y en base a seda o algodon.",
+        "precio": "4000"
+    },
+    {
+        "id": 3, 
+        "class":"cajita solar",
+        "img": "./img/oleo-solar.jpeg",
+        "nombre": "Oleo Solar", 
+        "autor": "Botica Bosque", 
+        "description":"Elixir antioxidante con aceite de maqui, avellana, jojoba y almendra. Local, de primera prensa en frío, e infusionado con hierbas calmantes.",
+        "precio": "9000"
+    },
+    {
+        "id": 4, 
+        "img": "./img/oleo-lunar.jpeg",
+        "class":"cajita lunar",
+        "nombre": "Oleo Lunar", 
+        "autor": "Botica Bosque", 
+        "description":"Elixir antioxidante con aceites de rosa mosqueta, palta, jojoba y almendras. Regenera la piel atenuando manchas, signos de envejecimiento y daño ambiental. Local, de primera prensa en frío, con extracto de hierbas vulnerarias. Aplíca sobre el rostro limpio antes de dormir, no usar durante el día.",
+        "precio": "9000"
+    },
+    {
+        "id": 5, 
+        "class":"cajita crema",
+        "img": "./img/crema-facial.jpeg",
+        "nombre": "Crema facial", 
+        "autor": "Botica Bosque", 
+        "description":"Crema humectante de uso diaria formulada especialmente para el rostro por su ph, apta para toda edad y tipo de piel, en rutina de día o de noche.",
+        "precio": "6000"
+    },
+    {
+        "id": 6, 
+        "class":"cajita aloe",
+        "img": "./img/agua-aloe.jpeg",
+        "nombre": "Agua de Aloe", 
+        "autor": "Botica Bosque", 
+        "description":"Alivia quemaduras solares , ardor e irritación, mientras hidrata, refresca y desinflama. Cicatrizante, emoliente y calmante.",
+        "precio": "5000"
+    },
+    {
+        "id": 7, 
+        "class":"cajita barra",
+        "img": "./img/barra-humectante.jpeg",
+        "nombre": "Barra Corporal Humectante", 
+        "autor": "Botica Bosque", 
+        "description":"Una crema humectante en formato barra. Fabricada en base a cacao, cera de abejas del bosque nativo, y aceites altamente nutritivos de palta y oliva. Repone la capa lipídica y protege de las agresiones externas.",
+        "precio": "5000"
+    },
+    {
+        "id": 8, 
+        "class":"cajita desodorante",
+        "img": "./img/desodorante.jpeg",
+        "nombre": "Desodorante Solido", 
+        "autor": "Botica Bosque", 
+        "description":"Formulado para pieles sensibles, libre de aluminio e ingredientes nocivos. Hecho con manteca de karité y aromatizado con hierbas frescas como menta, salvia y lavanda.",
+        "precio": "4000"
+    },
+    {
+        "id": 9, 
+        "class":"cajita protector",
+        "img": "./img/protector-solar.jpeg",
+        "nombre": "Protector Solar", 
+        "autor": "Botica Bosque", 
+        "description":"Un protector solar mineral, libre de ingredientes nocivos, 100% natural, y de uso diario. Es humectante y emoliente, aporta protección SPF30. Es resistente al agua, ideal para tatuajes y zonas pequeñas como rostro y manos.",
+        "precio": "4000"
+    },
+    {
+        "id": 10, 
+        "class":"cajita solidos",
+        "img": "./img/solidocapilar.jpeg",
+        "nombre": "Pack Solido Capilar", 
+        "autor": "Botica Bosque", 
+        "description":"Incluye barra de shampoo solido y balsamo solido.",
+        "precio": "11000"
+    }
+]

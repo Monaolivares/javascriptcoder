@@ -1,0 +1,49 @@
+#contenedorPadre{
+    display: grid; 
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 15px; 
+    grid-template-areas: 
+    "producto producto producto carrito"
+    "producto producto producto carrito"
+    "producto producto producto carrito";
+    justify-content: center;
+    justify-self: center;
+ 
+}
+.productos{
+    grid-area: producto;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "jabon scrunchie solar"
+    "lunar crema aloe"
+    "barra desodorante protector"
+    "solidos none none";
+
+}
+.jabon{
+    grid-area: jabon;
+}
+.scrunchie{
+    grid-area: scrunchie;
+}
+
+.solar{
+    grid-area: solar;
+}
+
+.contenedor-carrito{
+    background-color: rgb(116,119,74);
+    grid-area: carrito;
+}
+
+
+.comprasteBody{
+    background-color: rgb(154,123,115);
+}
+
+#h1compra{
+    color:beige; 
+}
