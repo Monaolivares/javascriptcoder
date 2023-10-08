@@ -1,3 +1,5 @@
+let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+
 // fetch 
 const url = "./data.json"; 
 
@@ -151,7 +153,7 @@ function borrarItem(e){
     
     console.log(productoEliminar); 
 
-    abuelo.remove(); 
+   //abuelo.remove(); 
 
     function eliminarProducto (producto){
         return producto.nombre != productoEliminar 
@@ -162,9 +164,12 @@ function borrarItem(e){
     carrito = resultadoFilter;  
     console.log(resultadoFilter); 
 
+    localStorage.setItem("carrito", JSON.stringify(carrito)) 
+
+    contenidoCarrito(); 
 
 }
-let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+
 
 console.log(
     carrito
@@ -172,7 +177,7 @@ console.log(
 
 // pop-up sweet alert con asincronia
 
-/* setTimeout(function() {
+setTimeout(function() {
     Swal.fire({
       title: '¡Promoción especial!',
       text: 'No te pierdas nuestras ofertas de esta semana.',
@@ -191,4 +196,3 @@ console.log(
     });
   }, 5000);
 
-*/

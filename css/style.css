@@ -9,6 +9,8 @@
     "producto producto producto carrito";
     justify-content: center;
     justify-self: center;
+    padding:20px; 
+    margin: 15px; 
  
 }
 .productos{
@@ -46,4 +48,30 @@
 
 #h1compra{
     color:beige; 
+}
+
+#bodymain{
+    background-color: rgb(181,200,196);
+
+}
+h1{
+    margin: 30px; 
+    color: rgb(64,79,60); 
+    font-family: 'Wellfleet', monospace;
+    font-size: 50px; 
+}
+
+.card{
+    background-color: rgb(204,202,189);
+
+}
+
+.btn{
+    background-color: rgb(153,123,114) ;
+}
+
+h5{
+    color: rgb(64,79,60); 
+    font-family: 'Wellfleet', monospace;
+    font-size: 25px; 
 }
